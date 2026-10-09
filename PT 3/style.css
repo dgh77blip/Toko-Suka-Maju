@@ -1,0 +1,98 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.hero {
+    position: relative;
+    background-color: #e8f5e9;
+    padding: 60px 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promo {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.gallery-section {
+    margin: 40px 20px;
+}
+
+.gallery-section h2 {
+    margin-bottom: 10px;
+}
+
+.gallery-section > p {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
